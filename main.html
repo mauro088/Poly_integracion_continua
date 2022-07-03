@@ -1,0 +1,208 @@
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+    </style>
+    <div id="container">
+        <nav id="navbar">
+            <header>Js Tutorial </header>
+            <ul>
+                <li><a class="nav-link" href="#JS_introduction">JS introduction</a></li>
+                <li><a class="nav-link" href="#JavaScript_Syntax">JavaScript Syntax</a></li>
+                <li><a class="nav-link" href="#JavaScript_Variables">JavaScript Variables</a></li>
+                <li><a class="nav-link" href="#JavaScript_Operators">JavaScript Operators</a></li>
+                <li><a class="nav-link" href="#JavaScript_Functions">JavaScript Functions</a></li>
+                <li><a class="nav-link" href="#References">References</a></li>
+
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="JS_introduction">
+
+                <header>
+                    <h1>JS introduction</h1>
+                </header>
+                <article>
+                    JavaScript Can Change HTML Content
+                    <p>
+                        One of many JavaScript HTML methods is getElementById(). <br> The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript": <br>
+                        <code>document.getElementById("demo").innerHTML = "Hello JavaScript";</code>
+                    </p>
+
+                </article>
+            </section>
+            <section class="main-section" id="JavaScript_Syntax">
+
+                <header>
+                    <h1>JavaScript Syntax</h1>
+                </header>
+                <article>
+                    <p>JavaScript syntax is the set of rules, how JavaScript programs are constructed:</p>
+
+                    <code>// How to create variables: <br>
+                    var x;<br>
+                    let y;<br>
+
+                    // How to use variables:  <br>
+                    x = 5; <br>
+                    y = 6; <br>
+                    let z = x + y; <br>
+
+                </code>
+
+                    <h1>Javascript values</h1>
+                    <div class="explanation">
+                        <p>The JavaScript syntax defines two types of values:</p>
+                        <ul>
+                            <li>Fixed values</li>
+                            <li>variable values</li>
+                        </ul>
+                    </div>
+                    <p>Fixed values are called <strong> Literals.</strong><br> Variable values are called <strong>Variables.</strong></p>
+
+
+
+
+                </article>
+            </section>
+
+            <section class="main-section" id="JavaScript_Variables">
+
+                <header>
+                    <h1>JavaScript Variables</h1>
+                </header>
+                <div class="explanation">
+                    <p>4 Ways to Declare a JavaScript Variable:</p>
+                    <ul>
+                        <li>Using var</li>
+                        <li>Using let</li>
+                        <li>Using const</li>
+                        <li>Using nothing</li>
+                </div>
+                </ul>
+                <h4>What are Variables?</h4>
+                <p>Variables are containers for storing data (storing data values). <br> <br> In this example, x, y, and z, are variables, declared with the var keyword:</p>
+                <div class="example">
+                    <h3>Example</h3>
+                    <code>var x = 5;<br>
+                var y = 6;<br>
+                var z = x + y;</code>
+                </div>
+                <p>In this example, x, y, and z, are variables, declared with the let keyword:</p>
+
+
+                <div class="example">
+                    <h3>Example</h3>
+                    <code>
+                let x = 5;<br>
+                let y = 6; <br>
+                let z = x + y;
+            </code>
+                </div>
+
+                <p>In this example, x, y, and z, are undeclared variables:</p>
+                <div class="example">
+                    <h3>Example</h3>
+                    <code>
+                x = 5; <br>
+                y = 6;  <br>
+                z = x + y;
+            </code>
+                </div>
+
+
+            </section>
+            <section class="main-section" id="JavaScript_Operators">
+                <header>
+                    <h1>JavaScript Operators</h1>
+                </header>
+                <div class="example">
+                    <h3>Example</h3>
+                    <p>Assign values to variables and add them together:</p>
+                    <code>  let x = 5;         // assign the value 5 to x <br>
+                    let y = 2;         // assign the value 2 to y <br>
+                    let z = x + y;     // assign the value 7 to z (5 + 2)
+            </code>
+                </div>
+                <h3>JavaScript Arithmetic Operators</h3>
+                <p>Arithmetic operators are used to perform arithmetic on numbers:</p>
+                <div style="overflow-x:auto;" id="table_c">
+                    <table>
+                        <tr>
+                            <td>Operator</td>
+                            <td>Description</td>
+                        </tr>
+                        <tr>
+                            <td>+</td>
+                            <td>Adition</td>
+                        </tr>
+                        <tr>
+                            <td>-</td>
+                            <td>Substraction</td>
+                        </tr>
+                        <tr>
+                            <td>*</td>
+                            <td>Multiplication</td>
+                        </tr>
+                        <tr>
+                            <td>**</td>
+                            <td>Exponentiation</td>
+                        </tr>
+                        <tr>
+                            <td>/</td>
+                            <td>Division</td>
+                        </tr>
+                        <tr>
+                            <td>%</td>
+                            <td>Modulus (Division Remainder)</td>
+                        </tr>
+                        <tr>
+                            <td>++</td>
+                            <td>Increment</td>
+                        </tr>
+                        <tr>
+                            <td>--</td>
+                            <td>Decrement</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </section>
+            <section class=" main-section " id="JavaScript_Functions">
+                <header>
+                    <h1>JavaScript Functions</h1>
+                </header>
+                <p>A JavaScript function is a block of code designed to perform a particular task. <br> <br> A JavaScript function is executed when "something " invokes it (calls it).</p>
+                <div class="example ">
+                    <h3>Example</h3>
+                    <code>
+                    function myFunction(p1, p2) { <br>
+                        return p1 * p2;   // The function returns the product of p1 and p2 <br>
+                      }
+            </code>
+                </div>
+
+                <h3>JavaScript Function Syntax</h3>
+
+                <p>A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses (). <br> Function names can contain letters, digits, underscores, and dollar signs (same rules as variables). <br> The parentheses
+                    may include parameter names separated by commas: <br> (parameter1, parameter2, ...) <br> The code to be executed, by the function, is placed inside curly brackets: {}</p>
+
+                <code>
+                function name(parameter1, parameter2, parameter3) { <br>
+                    // code to be executed  <br>
+                  }
+             </code>
+            </section>
+
+            <section class="main-section " id="References">
+                <header>
+                    <h1>References</h1>
+                </header>
+                <ul>
+                    <li>All the documentation in this page is taken from w3schools</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
