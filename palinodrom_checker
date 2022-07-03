@@ -1,0 +1,26 @@
+function palindrome(str) {
+   const regex = /[^A-Za-z0-9]/g;
+    const res = str.replace(regex, '');
+    const resu = res.toUpperCase();
+    let x = true;
+
+    for (let i = 0; i < str.length - 1; i++) {
+
+        if (resu[i] == resu[(resu.length - 1) - i]) {
+
+            if (i == resu.length - 1) {
+        
+                x = true;
+                  return x;
+            }
+        } else {
+           
+            x = false;
+            return x;
+        }
+    }
+
+
+  return true;
+}
+
